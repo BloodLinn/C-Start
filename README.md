@@ -54,4 +54,6 @@ You can contribute by sending a pull request or opening an issue.
 
 ---
 
-**Note:** This repository is prepared in accordance with the 42 school C beginner curriculum.
+## License
+
+This project is prepared for educational purposes as part of the 42

@@ -1,22 +1,22 @@
 # C-Start
 
-Bu depo, C programlama dilini öğrenmek ve temel algoritmaları uygulamak amacıyla hazırlanmış çeşitli egzersizleri ve projeleri içerir. Her klasör, farklı bir konuya veya projeye ayrılmıştır.
+This repository contains various exercises and projects designed to help you learn the C programming language and practice basic algorithms. Each folder is dedicated to a different topic or project.
 
-## Klasörler ve İçerikleri
+## Folders and Contents
 
-- **C00 - C06**: Temel C egzersizleri. Her klasörde, ilgili konunun alt egzersizleri (`ex00`, `ex01`, ...) bulunur.
-  - **C00**: Temel fonksiyonlar (yazdırma, karakter işlemleri, döngüler).
-  - **C01**: Göstergeler (pointer), diziler ve fonksiyonlar.
-  - **C02**: String işlemleri ve karakter dizileri üzerinde fonksiyonlar.
-  - **C03**: String karşılaştırma ve birleştirme fonksiyonları.
-  - **C04**: Standart giriş/çıkış işlemleri ve sayısal fonksiyonlar.
-  - **C05**: Rekürsif ve iteratif matematiksel fonksiyonlar (faktöriyel, kuvvet, fibonacci, asal sayılar).
-  - **C06**: Komut satırı argümanları ile çalışma.
+- **C00 - C06**: Basic C exercises. Each folder contains sub-exercises (`ex00`, `ex01`, ...) related to the topic.
+  - **C00**: Basic functions (printing, character operations, loops).
+  - **C01**: Pointers, arrays, and functions.
+  - **C02**: String operations and functions on character arrays.
+  - **C03**: String comparison and concatenation functions.
+  - **C04**: Standard input/output operations and numeric functions.
+  - **C05**: Recursive and iterative mathematical functions (factorial, power, fibonacci, prime numbers).
+  - **C06**: Working with command-line arguments.
 
-- **Rush00**: Mini proje, algoritma ve problem çözme odaklı C dosyaları.
-- **Shell00**: Temel shell komutları ve script egzersizleri.
+- **Rush00**: Mini project focused on algorithms and problem solving in C.
+- **Shell00**: Basic shell command and script exercises.
 
-## Klasör Yapısı
+## Folder Structure
 
 ```
 C-Start/
@@ -31,27 +31,27 @@ C-Start/
   Shell00/
 ```
 
-Her egzersiz klasöründe, ilgili konuya ait C dosyalarını bulabilirsiniz.
+You can find the relevant C files for each topic in the corresponding exercise folder.
 
-## Kullanım
+## Usage
 
-Her bir C dosyasını derleyip çalıştırmak için terminalde aşağıdaki komutu kullanabilirsiniz:
-
-```sh
-gcc dosya_adi.c -o program_adi
-./program_adi
-```
-
-Shell scriptleri doğrudan terminalde çalıştırılabilir:
+To compile and run any C file, use the following commands in your terminal:
 
 ```sh
-sh script_adi.sh
+gcc file_name.c -o program_name
+./program_name
 ```
 
-## Katkı
+Shell scripts can be run directly in the terminal:
 
-Katkıda bulunmak için pull request gönderebilir veya issue açabilirsiniz.
+```sh
+sh script_name.sh
+```
+
+## Contribution
+
+You can contribute by sending a pull request or opening an issue.
 
 ---
 
-**Not:** Bu depo, 42 okulu C başlangıç müfredatına uygun
+**Note:** This repository is prepared in accordance with the 42 school C beginner curriculum.
